@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../styles/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&display=swap" rel="stylesheet"></head>
+<body>
+    <!-- Header/Navbar -->
+    <div class="container">
+        <img src="../imgs/Logo.jpg" class="logo" />
+        <nav style="margin-top: 30px;">
+            <a class="nav-item" href="./index.html"><strong>The World of Endangered Species</strong></a>
+            <div class="navbar">
+                <a class="nav-item" href="./info.html"><strong>About Us</strong></a> |
+                <a class="nav-item active" href="./donate.html"><strong>Donate</strong></a> |
+                <a class="nav-item" href="./gallery.html"><strong>Gallery</strong></a>
+            </div>
+        </nav>
+    </div>
+
+    <br><br>
+
+    <div class="donate">
+        <form id="donate" method="post" action="donate.html">
+            <div class="contents">
+                <label><b>Enter your full name:</b></label>
+                <input type="text" name="Name" id="Name" placeholder="Name">
+                <br><br>
+
+                <label><b>Enter your donation:</b></label>
+                <input type="text" name="Amt" id="Amt" placeholder="Amount">
+                <br><br>
+
+                <input type="checkbox" id="check">
+                <span>Click to Accept Terms and Conditions</span>
+                <br><br>
+                
+                <input type="button" name="enter" id="enter" value="Submit">
+            </div>
+
+            <img src="../imgs/SeaOtter.webp" class="contents donate_image">
+        </form>
+    </div>
+</body>
+</html>

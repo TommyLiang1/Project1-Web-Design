@@ -1,0 +1,153 @@
+body {
+    background: #F1DCA7;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    margin-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+}
+
+.card {
+    border: transparent;
+    border-radius: 5px;
+    background-color: beige;
+    padding: 15px;
+    flex: wrap;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-title {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.card-text {
+    margin-top: -40px;
+    margin-bottom: 25px;
+}
+
+.animal {
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: rgb(51, 196, 233);
+    border-radius: 5px;
+    padding:10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar {
+    float: right;
+    font-family: 'Bree Serif', serif;
+}
+
+.nav-link{
+    width: 200px;
+}
+
+.logo {
+    float: left; 
+    height: 100%; 
+    width: 100px;
+    border: transparent;
+    border-radius: 75px;
+    padding: 0px;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+.nav-item{
+    padding: 8px;
+    font-size: 26px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #E8AC65;
+    font-family: 'Bree Serif', serif;
+    color: #582f0e;
+}
+
+.active{
+    background-color: #9B9B7A; 
+}
+
+.donate{  
+    width: 800px;  
+    overflow: hidden;  
+    margin: auto; 
+    padding: 40px;  
+    background: #23463f;  
+    border-radius: 15px;
+    text-align: center;
+}
+
+.donate_image {
+    margin-top: 30px;
+}
+
+.contents {
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+.gallery_container {
+    grid-template-columns: repeat(6, auto);
+}
+
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+
+#Name{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+
+#Amt{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+
+#enter{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: #797D62;
+}  
+
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
